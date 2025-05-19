@@ -21,6 +21,7 @@ def deposito(saldo, valor, extrato,/):
     else:
         print("Insira um valido para o deposito!")
 
+
     return saldo, extrato
 
 def sacar(*, saldo, valor, extrato, limite, numero_saques, limite_saques):
@@ -78,13 +79,12 @@ def nova_conta(agencia, num_conta, usuarios):
 
     if not usuarios:
         print("Usuário não encontrado! Crie um novo usuário antes de abrir uma conta.")
-        return None
+        return
 
     print("Conta criada com sucesso!")
 
-
 def listar_contas(contas):
-    if not contas:  # Verifica se a lista está vazia
+    if not contas:
         print("Nenhuma conta encontrada.")
         return
 
