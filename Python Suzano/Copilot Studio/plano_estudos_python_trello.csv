@@ -1,0 +1,42 @@
+List,Card Name
+Semana 1 - Lógica e Sintaxe,Instalação do Python e VS Code
+Semana 1 - Lógica e Sintaxe,"Sintaxe básica: variáveis, tipos e operadores"
+Semana 1 - Lógica e Sintaxe,Entrada e saída de dados (input/print)
+Semana 1 - Lógica e Sintaxe,"Condicionais: if, elif, else"
+Semana 1 - Lógica e Sintaxe,Exercícios práticos e desafios simples
+Semana 2 - Estruturas de Dados,Listas e tuplas
+Semana 2 - Estruturas de Dados,Dicionários e conjuntos
+Semana 2 - Estruturas de Dados,Manipulação de strings
+Semana 2 - Estruturas de Dados,Loops: for e while
+Semana 2 - Estruturas de Dados,Funções embutidas úteis
+Semana 2 - Estruturas de Dados,Desafios de manipulação de dados
+Semana 3 - Funções e Módulos,Definição de funções (def)
+Semana 3 - Funções e Módulos,"Parâmetros, retorno e escopo de variáveis"
+Semana 3 - Funções e Módulos,Importação e criação de módulos
+Semana 3 - Funções e Módulos,Boas práticas e documentação
+Semana 3 - Funções e Módulos,Mini-projetos usando funções
+Semana 4 - Programação Orientada a Objetos (POO),Classes e objetos
+Semana 4 - Programação Orientada a Objetos (POO),Atributos e métodos
+Semana 4 - Programação Orientada a Objetos (POO),Encapsulamento e herança
+Semana 4 - Programação Orientada a Objetos (POO),"Métodos especiais (__init__, __str__, etc.)"
+Semana 4 - Programação Orientada a Objetos (POO),POO na prática com mini sistemas
+Semana 5 - Banco de Dados e SQL,Conceitos de banco de dados relacionais
+Semana 5 - Banco de Dados e SQL,"Comandos SQL: SELECT, INSERT, UPDATE, DELETE"
+Semana 5 - Banco de Dados e SQL,Integração Python + SQLite
+Semana 5 - Banco de Dados e SQL,CRUD com banco de dados
+Semana 5 - Banco de Dados e SQL,Projeto simples com banco
+Semana 6 - Web com Django,Introdução ao Django
+Semana 6 - Web com Django,Criando um projeto Django
+Semana 6 - Web com Django,"Modelos, views e templates"
+Semana 6 - Web com Django,Formulários e validações
+Semana 6 - Web com Django,Integração com banco de dados
+Semana 6 - Web com Django,Projeto CRUD completo
+"Semana 7 - Testes, Git e Deploy",Testes com unittest e pytest
+"Semana 7 - Testes, Git e Deploy",Versionamento com Git e GitHub
+"Semana 7 - Testes, Git e Deploy",Publicando projetos no GitHub
+"Semana 7 - Testes, Git e Deploy","Deploy com Render, Railway, etc."
+Semana Extra - Portfólio e Entrevistas,Como montar um portfólio relevante
+Semana Extra - Portfólio e Entrevistas,Checklist para projetos de portfólio
+Semana Extra - Portfólio e Entrevistas,Preparação para entrevistas técnicas
+Semana Extra - Portfólio e Entrevistas,Dicas de currículo e LinkedIn
+Semana Extra - Portfólio e Entrevistas,Exercícios e simulados de entrevista
