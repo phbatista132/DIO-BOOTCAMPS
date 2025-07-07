@@ -9,7 +9,7 @@ public class ContaTerminal {
 
         System.out.println("Por favor, digite o número da Agência!");
         scanner.nextLine();
-        String agencia = scanner.nextLine();
+        String agencia = scanner.nextLine().to;
 
         System.out.println("Por favor, informe seu nome!");
         String nomeCliente = scanner.nextLine().toUpperCase();
