@@ -1,0 +1,21 @@
+Projeto de Simulação de Vulnerabilidades com Base no Modelo STRIDE
+Este projeto tem como objetivo a criação de um ambiente controlado para simulação e detecção de vulnerabilidades em aplicações,
+com foco educacional e de testes de segurança. A proposta envolve a construção de cenários que reproduzem falhas comuns no
+desenvolvimento de software, como injeção de código, autenticação fraca e erros de configuração, permitindo a análise prática
+de riscos e a aplicação de boas práticas de cibersegurança.
+
+Para estruturar a identificação e categorização das ameaças, foi adotado o modelo STRIDE, amplamente utilizado em modelagem de ameaças.
+ O acrônimo representa seis categorias principais:
+- Spoofing (Falsificação de identidade): Simulação de usuários não autorizados acessando o sistema.
+- Tampering (Adulteração de dados): Modificação maliciosa de informações armazenadas ou transmitidas.
+- Repudiation (Repúdio de ações): Ausência de rastreabilidade que permite negar ações realizadas.
+- Information Disclosure (Divulgação de informações): Exposição de dados sensíveis sem autorização.
+- Denial of Service (Negação de serviço): Interrupção ou degradação da disponibilidade do sistema.
+- Elevation of Privilege (Elevação de privilégio): Acesso indevido a funções restritas por usuários comuns.
+Cada cenário desenvolvido foi pensado para representar uma dessas categorias, permitindo que o sistema seja testado quanto à sua
+capacidade de resistir a ataques simulados e identificar pontos vulneráveis. Além disso, foram documentadas as contramedidas
+recomendadas para cada tipo de ameaça, como autenticação multifator, criptografia de dados, validação de entrada e controle de
+acesso.
+A aplicação do modelo STRIDE neste projeto não apenas fortalece a análise técnica das vulnerabilidades, como também contribui para
+o desenvolvimento de uma mentalidade preventiva na construção de sistemas seguros. O resultado é uma ferramenta prática e didática
+que apoia o aprendizado em cibersegurança e promove a melhoria contínua das práticas de desenvolvimento.
