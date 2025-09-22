@@ -1,0 +1,18 @@
+Geração Automática de Testes com IA
+
+Este projeto teve como objetivo aplicar os conceitos estudados em aula para desenvolver um agente de inteligência artificial
+capaz de gerar automaticamente testes unitários a partir de um código Python, utilizando a biblioteca pytest. A proposta
+representa uma abordagem inovadora para aumentar a produtividade dos desenvolvedores e garantir maior cobertura e qualidade
+de código em ambientes de desenvolvimento contínuo.
+Ao integrar modelos de linguagem da Azure (ChatGPT) com a biblioteca LangChain, foi possível construir um sistema que interpreta
+o comportamento esperado de funções e métodos, propondo testes coerentes e alinhados com as boas práticas de desenvolvimento.
+Essa automação reduz significativamente o tempo dedicado à escrita manual de testes, além de minimizar erros humanos e promover
+uma cultura de testes mais consistente.
+Durante o desenvolvimento, foi possível compreender com mais profundidade:
+- Como os modelos de linguagem podem ser aplicados em tarefas de engenharia de software.
+- A importância da estrutura dos testes unitários e como o pytest facilita sua implementação.
+- O papel da análise semântica do código para gerar cenários de teste relevantes.
+- A vantagem de utilizar LangChain para orquestrar interações entre o agente e o código-fonte.
+Este desafio reforçou a ideia de que a inteligência artificial pode ser uma aliada poderosa na automação de tarefas repetitivas
+e técnicas, liberando tempo para que os desenvolvedores se concentrem em decisões estratégicas e criativas. Além disso, mostrou
+como a combinação entre PLN, automação e boas práticas de teste pode transformar o fluxo de trabalho em projetos reais
