@@ -1,0 +1,48 @@
+Projeto de Estudos em Segurança Cibernética com Kali Linux e Medusa
+Introdução
+Este projeto foi desenvolvido como parte do desafio da DIO, com o objetivo de explorar conceitos de ataques de força bruta em ambientes controlados, utilizando Kali Linux e a ferramenta Medusa.
+A proposta é documentar em detalhes o que foi aprendido, trazendo reflexões e exemplos práticos que demonstram compreensão dos temas abordados.
+
+Objetivos de Aprendizagem
+- Compreender ataques de força bruta em diferentes serviços (FTP, Web, SMB).
+- Conhecer a ferramenta Medusa e sua aplicação em auditoria de segurança.
+- Refletir sobre vulnerabilidades comuns e medidas de mitigação.
+- Exercitar documentação técnica clara e estruturada.
+- Utilizar o GitHub como portfólio técnico para compartilhar conhecimento.
+
+Estudos e Reflexões
+Ataques de Força Bruta
+Ataques de força bruta consistem em tentativas automatizadas de adivinhar credenciais de acesso. São eficazes contra sistemas que utilizam senhas fracas ou repetidas.
+Reflexão: Esse tipo de ataque mostra como a ausência de políticas de senha robustas é uma das maiores vulnerabilidades em ambientes corporativos e pessoais.
+
+Ferramenta Medusa
+O Medusa é uma ferramenta de força bruta paralela, capaz de realizar múltiplas tentativas simultâneas em diversos serviços.
+Exemplo de comando:
+medusa -h 192.168.56.101 -u admin -P wordlist.txt -M ftp
+
+
+Reflexão: A simplicidade do Medusa evidencia como qualquer atacante pode explorar serviços básicos se não houver proteção adequada.
+
+Ambientes Vulneráveis
+Ambientes como Metasploitable 2 e DVWA são laboratórios criados para estudo e prática de segurança ofensiva.
+Reflexão: Ter ambientes controlados é essencial para aprender segurança sem comprometer sistemas reais, permitindo simulações seguras de ataques.
+
+Enumeração e Password Spraying
+- Enumeração: processo de descobrir usuários válidos em um sistema.
+- Password Spraying: técnica que testa uma senha comum em vários usuários ao mesmo tempo.
+Exemplo de comando:
+medusa -h 192.168.56.101 -U users.txt -p 123456 -M smbnt
+
+
+Reflexão: Esse ataque mostra que mesmo senhas fortes podem falhar se forem reutilizadas por diferentes usuários.
+
+Recomendações de Mitigação
+- Utilizar senhas fortes e únicas.
+- Implementar bloqueio de conta após tentativas falhas.
+- Monitorar logs de autenticação regularmente.
+- Desabilitar serviços inseguros, como FTP sem criptografia.
+- Adotar autenticação multifator (MFA).
+
+Conclusão
+Este projeto reforçou a importância de compreender ataques básicos como força bruta e password spraying. Mais do que executar comandos, o aprendizado está em refletir sobre como prevenir e documentar o processo para compartilhar conhecimento.
+A documentação serve como registro da jornada de aprendizado e como material de conscientização sobre segurança cibernética.
